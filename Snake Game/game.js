@@ -50,6 +50,7 @@ function startGame() {
     playerName = "Player"; // Default name if none provided
   }
   musicSound.play();
+  musicSound.loop=true;
   // Greet the player
   document.querySelector("#playerGreetMsg").innerText = `Hello!!!.. ${playerName}`;
   
